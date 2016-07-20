@@ -1,0 +1,32 @@
+{
+  "version": "0.1.1",
+  "name": "eslint-config-dacz",
+  "description": "Shareable eslint config for dacz",
+  "author": "David Cizek <david@origamica.com> (https://twitter.com/dadc)",
+  "homepage": "https://github.com/dacz/eslint-config-dacz",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dacz/eslint-config-dacz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dacz/eslint-config-dacz/issues"
+  },
+  "readme": "README.md",
+  "directories": {},
+  "keywords": [
+    "eslint"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run --silent lint"
+  },
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.1.0",
+    "eslint-plugin-import": "^1.11.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.1"
+  }
+}
