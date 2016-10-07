@@ -178,7 +178,7 @@ module.exports = {
     },
     'react': {
       'pragma': 'React',
-      'version': '0.14'
+      'version': '0.15'
     },
   }
 };
