@@ -33,7 +33,7 @@ module.exports = {
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': 0,
     // enforces spacing between keys and values in object literal properties
-    'key-spacing': [ 2, { align: 'value' } ],
+    'key-spacing': 0,
     // require a space before & after certain keywords
     'keyword-spacing': [2, {
       'before': true,
@@ -82,7 +82,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': 2,
     // disallow multiple empty lines and only one newline at the end
-    'no-multiple-empty-lines': [ 1, { max: 3 } ],
+    'no-multiple-empty-lines': [ 1, { max: 5 } ],
     // disallow negated conditions
     // http://eslint.org/docs/rules/no-negated-condition
     'no-negated-condition': 0,
@@ -109,7 +109,7 @@ module.exports = {
     // require padding inside curly braces
     'object-curly-spacing': [2, 'always'],
     // allow just one var statement per function
-    'one-var': [2, 'never'],
+    'one-var': ['error', { let: 'always' }],
     // require a newline around variable declaration
     // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var-declaration-per-line': [2, 'always'],

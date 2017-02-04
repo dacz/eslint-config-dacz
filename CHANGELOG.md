@@ -1,4 +1,3 @@
 # Changelog
 
-- 0.1.1 Initial version
-  - based on recomended and airbnb
+Updated randomly, according to my needs.

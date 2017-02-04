@@ -90,7 +90,8 @@ module.exports = {
     // disallow use of multiple spaces
     'no-multi-spaces': [ 2, { exceptions: {
       VariableDeclarator: true,
-      ImportDeclaration:  true
+      ImportDeclaration:  true,
+      ConditionalExpressions: true
     } } ],
     // disallow use of multiline strings
     'no-multi-str': 2,
@@ -159,7 +160,7 @@ module.exports = {
     // disallow use of void operator
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [ 2, { terms: [ 'todo', 'fixme' ], location: 'start' } ],
+    'no-warning-comments': [ 2, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],
     // disallow use of the with statement
     'no-with': 2,
     // require use of the second argument for parseInt()
