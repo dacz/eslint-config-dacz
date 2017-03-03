@@ -9,9 +9,11 @@ module.exports = {
     './rules/variables.js',
     './rules/es6.js',
     './rules/react.js',
-    './rules/react-a11y.js'
+    './rules/react-a11y.js',
+    './rules/ava.js'
   ],
   plugins: [
+    'ava',
     'import',
     'react',
     'jsx-a11y'
@@ -37,8 +39,5 @@ module.exports = {
         extensions: [ '.js', '.json' ]
       }
     }
-  },
-  rules: {
-    'spaced-comment': 0,
   }
 };
