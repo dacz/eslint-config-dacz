@@ -52,7 +52,10 @@ module.exports = {
     // http://eslint.org/docs/rules/max-len
     'max-len': [1, 100, 2, {
       'ignoreUrls': true,
-      'ignoreComments': true
+      'ignoreComments': true,
+      'ignoreTemplateLiterals': true,
+      'ignoreRegExpLiterals': true,
+      'ignoreUrls': true
     }],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,
