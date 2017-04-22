@@ -7,6 +7,6 @@ module.exports = {
     'promise/no-native': 'off',
     'promise/no-nesting': 'warn',
     'promise/no-promise-in-callback': 'warn',
-    'prefer-await-to-then': 'warn'
+    'promise/prefer-await-to-then': 'warn'
   }
 };
