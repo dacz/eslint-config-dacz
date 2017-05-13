@@ -1,6 +1,5 @@
 module.exports = {
   extends: [
-    // "eslint:recommended",
     './rules/best-practices.js',
     './rules/errors.js',
     './rules/legacy.js',
@@ -9,7 +8,7 @@ module.exports = {
     './rules/variables.js',
     './rules/es6.js',
     './rules/react.js',
-    './rules/imports.js',
+    './rules/importplugin.js',
     'plugin:ava/recommended'
   ],
   plugins: [
