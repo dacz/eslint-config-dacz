@@ -9,17 +9,14 @@ module.exports = {
     './rules/variables.js',
     './rules/es6.js',
     './rules/react.js',
-    './rules/react-a11y.js',
-    './rules/promise.js',
+    './rules/imports.js',
     'plugin:ava/recommended'
   ],
   plugins: [
     'ava',
     'compat',
     'import',
-    'promise',
-    'react',
-    'jsx-a11y'
+    'react'
   ],
   parser:        'babel-eslint',
   parserOptions: {
