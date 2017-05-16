@@ -84,7 +84,7 @@ module.exports = {
     // disallow mixed spaces and tabs for indentation
     'no-mixed-spaces-and-tabs': 2,
     // disallow multiple empty lines and only one newline at the end
-    'no-multiple-empty-lines': [ 1, { max: 5 } ],
+    'no-multiple-empty-lines': 0,// [ 1, { max: 5 } ],
     // disallow negated conditions
     // http://eslint.org/docs/rules/no-negated-condition
     'no-negated-condition': 0,
@@ -114,7 +114,7 @@ module.exports = {
     'one-var': ['error', { let: 'always' }],
     // require a newline around variable declaration
     // http://eslint.org/docs/rules/one-var-declaration-per-line
-    'one-var-declaration-per-line': [2, 'always'],
+    'one-var-declaration-per-line': 0, //[2, 'always'],
     // require assignment operator shorthand where possible or prohibit it entirely
     'operator-assignment': 0,
     // enforce operators to be placed before or after line breaks

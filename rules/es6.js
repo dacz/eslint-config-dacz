@@ -19,9 +19,10 @@ module.exports = {
     'no-class-assign': 2,
     // disallow arrow functions where they could be confused with comparisons
     // http://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': [2, {
-      'allowParens': true,
-    }],
+    // 'no-confusing-arrow': [2, {
+    //   'allowParens': true,
+    // }],
+    'no-confusing-arrow': 0,
     // disallow modifying variables that are declared using const
     'no-const-assign': 2,
     // disallow duplicate class members
