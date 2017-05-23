@@ -9,34 +9,29 @@ module.exports = {
     './rules/es6.js',
     './rules/react.js',
     './rules/importplugin.js',
-    'plugin:ava/recommended'
+    'plugin:ava/recommended',
   ],
-  plugins: [
-    'ava',
-    'compat',
-    'import',
-    'react'
-  ],
-  parser:        'babel-eslint',
+  plugins: [ 'ava', 'compat', 'import', 'react' ],
+  parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion:  7,
-    sourceType:   'module',
+    ecmaVersion: 7,
+    sourceType: 'module',
     ecmaFeatures: {
-      jsx:                              true,
-      generators:                       false,
-      objectLiteralDuplicateProperties: false
+      jsx: true,
+      generators: false,
+      objectLiteralDuplicateProperties: false,
     },
   },
   env: {
-    es6:     true,
+    es6: true,
     browser: true,
-    node:    true
+    node: true,
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: [ '.js', '.json' ]
-      }
-    }
-  }
+        extensions: [ '.js', '.json' ],
+      },
+    },
+  },
 };

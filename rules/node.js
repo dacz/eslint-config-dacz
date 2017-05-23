@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': {
+  rules: {
     // enforce return after a callback
     'callback-return': 0,
     // require all requires be top-level
@@ -8,7 +8,7 @@ module.exports = {
     // enforces error handling in callbacks (node environment)
     'handle-callback-err': 0,
     // disallow mixing regular variable and require declarations
-    'no-mixed-requires': [0, false],
+    'no-mixed-requires': [ 0, false ],
     // disallow use of new operator with the require function
     'no-new-require': 0,
     // disallow string concatenation with __dirname and __filename
@@ -19,5 +19,5 @@ module.exports = {
     'no-restricted-modules': 0,
     // disallow use of synchronous methods (off by default)
     'no-sync': 0,
-  }
+  },
 };

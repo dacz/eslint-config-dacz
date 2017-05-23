@@ -1,7 +1,7 @@
 module.exports = {
-  'rules': {
+  rules: {
     // disallow assignment in conditional expressions
-    'no-cond-assign': [2, 'always'],
+    'no-cond-assign': [ 2, 'always' ],
     // disallow use of console
     'no-console': [ 1, { allow: [ 'warn', 'error' ] } ],
     // disallow use of constant expressions in conditions
@@ -26,10 +26,14 @@ module.exports = {
     'no-extra-boolean-cast': 0,
     // disallow unnecessary parentheses
     // http://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': [0, 'all', {
-      'conditionalAssign': true,
-      'nestedBinaryExpressions': false,
-    }],
+    'no-extra-parens': [
+      0,
+      'all',
+      {
+        conditionalAssign: true,
+        nestedBinaryExpressions: false,
+      },
+    ],
     // disallow unnecessary semicolons
     'no-extra-semi': 2,
     // disallow overwriting functions written as function declarations
@@ -58,6 +62,6 @@ module.exports = {
     // ensure that the results of typeof are compared against a valid string
     'valid-typeof': 2,
     // Avoid code that looks like two expressions but is actually one
-    'no-unexpected-multiline': 0
-  }
+    'no-unexpected-multiline': 0,
+  },
 };

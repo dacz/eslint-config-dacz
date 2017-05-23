@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': {
+  rules: {
     // enforces getter/setter pairs in objects
     'accessor-pairs': 0,
     // enforces return statements in callbacks of array's methods
@@ -8,20 +8,20 @@ module.exports = {
     // treat var statements as if they were block scoped
     'block-scoped-var': 2,
     // specify the maximum cyclomatic complexity allowed in a program
-    'complexity': [1, 10],
+    complexity: [ 1, 10 ],
     // require return statements to either always or never specify values
     'consistent-return': 2,
     // specify curly brace conventions for all control statements
-    'curly': [2, 'multi-line'],
+    curly: [ 2, 'multi-line' ],
     // require default case in switch statements
-    'default-case': [2, { 'commentPattern': '^no default$' }],
+    'default-case': [ 2, { commentPattern: '^no default$' } ],
     // encourages use of dot notation whenever possible
-    'dot-notation': [2, { 'allowKeywords': true }],
+    'dot-notation': [ 2, { allowKeywords: true } ],
     // enforces consistent newlines before or after dots
     'dot-location': 0,
     // require the use of === and !==
     // http://eslint.org/docs/rules/eqeqeq
-    'eqeqeq': [2, 'allow-null'],
+    eqeqeq: [ 2, 'allow-null' ],
     // make sure for-in loops have an if statement
     'guard-for-in': 2,
     // Blacklist certain identifiers to prevent them being used
@@ -40,13 +40,12 @@ module.exports = {
     'no-else-return': 2,
     // disallow empty functions, except for standalone funcs/arrows
     // http://eslint.org/docs/rules/no-empty-function
-    'no-empty-function': [2, {
-      'allow': [
-        'arrowFunctions',
-        'functions',
-        'methods',
-      ]
-    }],
+    'no-empty-function': [
+      2,
+      {
+        allow: [ 'arrowFunctions', 'functions', 'methods' ],
+      },
+    ],
     // disallow empty destructuring patterns
     // http://eslint.org/docs/rules/no-empty-pattern
     'no-empty-pattern': 2,
@@ -74,25 +73,33 @@ module.exports = {
     // disallow usage of __iterator__ property
     'no-iterator': 2,
     // disallow use of labels for anything other then loops and switches
-    'no-labels': [2, { 'allowLoop': false, 'allowSwitch': false }],
+    'no-labels': [ 2, { allowLoop: false, allowSwitch: false } ],
     // disallow unnecessary nested blocks
     'no-lone-blocks': 2,
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // disallow magic numbers
     // http://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': [0, {
-      'ignore': [],
-      'ignoreArrayIndexes': true,
-      'enforceConst': true,
-      'detectObjects': false,
-    }],
+    'no-magic-numbers': [
+      0,
+      {
+        ignore: [],
+        ignoreArrayIndexes: true,
+        enforceConst: true,
+        detectObjects: false,
+      },
+    ],
     // disallow use of multiple spaces
-    'no-multi-spaces': [ 2, { exceptions: {
-      VariableDeclarator: true,
-      ImportDeclaration:  true,
-      ConditionalExpressions: true
-    } } ],
+    'no-multi-spaces': [
+      2,
+      {
+        exceptions: {
+          VariableDeclarator: true,
+          ImportDeclaration: true,
+          ConditionalExpressions: true,
+        },
+      },
+    ],
     // disallow use of multiline strings
     'no-multi-str': 2,
     // disallow reassignments of native objects
@@ -160,17 +167,20 @@ module.exports = {
     // disallow use of void operator
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
-    'no-warning-comments': [ 2, { terms: [ 'todo', 'fixme' ], location: 'anywhere' } ],
+    'no-warning-comments': [
+      2,
+      { terms: [ 'todo', 'fixme' ], location: 'anywhere' },
+    ],
     // disallow use of the with statement
     'no-with': 2,
     // require use of the second argument for parseInt()
-    'radix': 2,
+    radix: 2,
     // requires to declare all vars on top of their containing scope
     'vars-on-top': 2,
     // require immediate function invocation to be wrapped in parentheses
     // http://eslint.org/docs/rules/wrap-iife.html
-    'wrap-iife': [2, 'outside'],
+    'wrap-iife': [ 2, 'outside' ],
     // require or disallow Yoda conditions
-    'yoda': 2
-  }
+    yoda: 2,
+  },
 };

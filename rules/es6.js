@@ -57,8 +57,8 @@ module.exports = {
       2,
       {
         allowNamedFunctions: false,
-        allowUnboundThis: true
-      }
+        allowUnboundThis: true,
+      },
     ],
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 2,
@@ -82,6 +82,6 @@ module.exports = {
     'template-curly-spacing': 2,
     // enforce spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': [ 2, 'after' ]
-  }
+    'yield-star-spacing': [ 2, 'after' ],
+  },
 };
