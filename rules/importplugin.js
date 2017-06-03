@@ -7,7 +7,7 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       2,
       {
-        devDependencies: ['**/*.test.js', '**/*.spec.js', 'tests', 'tests/**/*.js'],
+        devDependencies: ['**/test-*.js', '**/*.test.js', '**/*.spec.js', 'tests/**/*'],
         optionalDependencies: false,
       },
     ],
