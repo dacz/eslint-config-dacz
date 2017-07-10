@@ -1,5 +1,5 @@
 {
-  "version": "0.11.1",
+  "version": "0.11.2",
   "name": "eslint-config-dacz",
   "description": "Shareable eslint config for dacz",
   "author": "David Cizek <david@origamica.com> (https://twitter.com/dadc)",
