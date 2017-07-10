@@ -1,20 +1,20 @@
 module.exports = {
   rules: {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': [ 2, 'always', { arraysInArrays: false } ],
+    // 'array-bracket-spacing': [2, 'always'],
     // enforce spacing inside single-line blocks
     // http://eslint.org/docs/rules/block-spacing
-    'block-spacing': [ 2, 'always' ],
+    'block-spacing': [2, 'always'],
     // enforce one true brace style
-    'brace-style': [ 2, '1tbs', { allowSingleLine: true } ],
+    'brace-style': [2, '1tbs', { allowSingleLine: true }],
     // require camel case names
-    camelcase: [ 2, { properties: 'never' } ],
+    camelcase: [2, { properties: 'never' }],
     // enforce spacing before and after comma
-    'comma-spacing': [ 2, { before: false, after: true } ],
+    'comma-spacing': [2, { before: false, after: true }],
     // enforce one true comma style
-    'comma-style': [ 2, 'last' ],
+    'comma-style': [2, 'last'],
     // disallow padding inside computed properties
-    'computed-property-spacing': [ 2, 'never' ],
+    'computed-property-spacing': [2, 'never'],
     // enforces consistent naming when capturing the current execution context
     'consistent-this': 0,
     // enforce newline at the end of file, with no multiple empty lines
@@ -28,7 +28,7 @@ module.exports = {
     'id-length': 0,
     // this option sets a specific tab width for your code
     // http://eslint.org/docs/rules/indent
-    indent: [ 2, 2, { SwitchCase: 1, VariableDeclarator: 1 } ],
+    indent: [2, 2, { SwitchCase: 1, VariableDeclarator: 1 }],
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
     'jsx-quotes': 0,
@@ -43,9 +43,9 @@ module.exports = {
         overrides: {
           return: { after: true },
           throw: { after: true },
-          case: { after: true },
-        },
-      },
+          case: { after: true }
+        }
+      }
     ],
     // enforces empty lines around comments
     'lines-around-comment': 0,
@@ -62,16 +62,16 @@ module.exports = {
         ignoreComments: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true,
-      },
+        ignoreRegExpLiterals: true
+      }
     ],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,
     // restrict the number of statements per line
     // http://eslint.org/docs/rules/max-statements-per-line
-    'max-statements-per-line': [ 0, { max: 1 } ],
+    'max-statements-per-line': [0, { max: 1 }],
     // require a capital letter for constructors
-    'new-cap': [ 2, { capIsNewExceptions: [ 'Router' ] } ],
+    'new-cap': [2, { capIsNewExceptions: ['Router'] }],
     // disallow the omission of parentheses when invoking a constructor with no arguments
     'new-parens': 0,
     // allow/disallow an empty newline after var statement
@@ -81,7 +81,7 @@ module.exports = {
     // enforces new line after each method call in the chain to make it
     // more readable and easy to maintain
     // http://eslint.org/docs/rules/newline-per-chained-call
-    'newline-per-chained-call': [ 2, { ignoreChainWithDepth: 3 } ],
+    'newline-per-chained-call': [2, { ignoreChainWithDepth: 3 }],
     // disallow use of the Array constructor
     'no-array-constructor': 2,
     // disallow use of the continue statement
@@ -113,14 +113,14 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`
     // http://eslint.org/docs/rules/no-unneeded-ternary
-    'no-unneeded-ternary': [ 2, { defaultAssignment: false } ],
+    'no-unneeded-ternary': [2, { defaultAssignment: false }],
     // disallow whitespace before properties
     // http://eslint.org/docs/rules/no-whitespace-before-property
     'no-whitespace-before-property': 2,
     // require padding inside curly braces
-    'object-curly-spacing': [ 2, 'always' ],
+    'object-curly-spacing': [2, 'always'],
     // allow just one var statement per function
-    'one-var': [ 'error', { let: 'always' } ],
+    'one-var': ['error', { let: 'always' }],
     // require a newline around variable declaration
     // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var-declaration-per-line': 0, //[2, 'always'],
@@ -129,32 +129,32 @@ module.exports = {
     // enforce operators to be placed before or after line breaks
     'operator-linebreak': 0,
     // enforce padding within blocks
-    'padded-blocks': [ 2, 'never' ],
+    'padded-blocks': [2, 'never'],
     // require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props.html
     'quote-props': [
       2,
       'as-needed',
-      { keywords: false, unnecessary: true, numbers: false },
+      { keywords: false, unnecessary: true, numbers: false }
     ],
     // specify whether double or single quotes should be used
-    quotes: [ 2, 'single', 'avoid-escape' ],
+    quotes: [2, 'single', 'avoid-escape'],
     // require identifiers to match the provided regular expression
     'id-match': 0,
     // do not require jsdoc
     // http://eslint.org/docs/rules/require-jsdoc
     'require-jsdoc': 0,
     // enforce spacing before and after semicolons
-    'semi-spacing': [ 2, { before: false, after: true } ],
+    'semi-spacing': [2, { before: false, after: true }],
     // require or disallow use of semicolons instead of ASI
-    semi: [ 2, 'always' ],
+    semi: [2, 'always'],
     // sort variables within the same declaration block
     'sort-vars': 0,
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
     // http://eslint.org/docs/rules/space-before-function-paren
-    'space-before-function-paren': [ 2, { anonymous: 'always', named: 'never' } ],
+    'space-before-function-paren': [2, { anonymous: 'always', named: 'never' }],
     // require or disallow spaces inside parentheses
     'space-in-parens': 0,
     // require spaces around operators
@@ -168,6 +168,6 @@ module.exports = {
     //   'markers': ['=', '!']           // space here to support sprockets directives
     // }],
     // require regex literals to be wrapped in parentheses
-    'wrap-regex': 0,
-  },
+    'wrap-regex': 0
+  }
 };

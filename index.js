@@ -10,8 +10,10 @@ module.exports = {
     './rules/react.js',
     './rules/importplugin.js',
     'plugin:ava/recommended',
+    'prettier',
+    'prettier/react',
   ],
-  plugins: [ 'ava', 'compat', 'import', 'react' ],
+  plugins: ['ava', 'compat', 'import', 'react', 'prettier'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 7,
@@ -30,7 +32,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: [ '.js', '.json' ],
+        extensions: ['.js', '.json'],
       },
     },
   },
