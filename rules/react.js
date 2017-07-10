@@ -15,19 +15,19 @@ module.exports = {
   rules: {
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': [ 2, 'prefer-double' ],
+    'jsx-quotes': [2, 'prefer-double'],
     // Prevent missing displayName in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    'react/display-name': [ 0, { ignoreTranspilerName: false } ],
+    'react/display-name': [0, { ignoreTranspilerName: false }],
     // Forbid certain propTypes (any, array, object)
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-    'react/forbid-prop-types': [ 0, { forbid: [ 'any', 'array', 'object' ] } ],
+    'react/forbid-prop-types': [0, { forbid: ['any', 'array', 'object'] }],
     // Enforce boolean attributes notation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    'react/jsx-boolean-value': [ 2, 'never' ],
+    'react/jsx-boolean-value': [2, 'never'],
     // Validate closing bracket location in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
-    'react/jsx-closing-bracket-location': [ 2, 'line-aligned' ],
+    'react/jsx-closing-bracket-location': [2, 'line-aligned'],
     // Enforce or disallow spaces inside of curly braces in JSX attributes
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-curly-spacing': [
@@ -49,13 +49,13 @@ module.exports = {
     ],
     // Validate props indentation in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-    'react/jsx-indent-props': [ 2, 2 ],
+    'react/jsx-indent-props': [2, 2],
     // Validate JSX has key prop when in array or iterator
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': 0,
     // Limit maximum of props on a single line in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
-    'react/jsx-max-props-per-line': [ 0, { maximum: 1 } ],
+    'react/jsx-max-props-per-line': [0, { maximum: 1 }],
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     'react/jsx-no-bind': [
@@ -68,7 +68,7 @@ module.exports = {
     ],
     // Prevent duplicate props in JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': [ 0, { ignoreCase: false } ],
+    'react/jsx-no-duplicate-props': [0, { ignoreCase: false }],
     // Prevent usage of unwrapped JSX strings
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
     'react/jsx-no-literals': 0,
@@ -124,7 +124,7 @@ module.exports = {
     'react/no-is-mounted': 2,
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': [ 2, { ignoreStateless: true } ],
+    'react/no-multi-comp': [2, { ignoreStateless: true }],
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
     'react/no-set-state': 0,
@@ -136,7 +136,7 @@ module.exports = {
     'react/no-unknown-property': 2,
     // Require ES6 class declarations over React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-    'react/prefer-es6-class': [ 2, 'always' ],
+    'react/prefer-es6-class': [2, 'always'],
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': 2,
@@ -148,7 +148,7 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     // Restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    'react/require-extension': [ 0, { extensions: [ '.jsx' ] } ],
+    'react/require-extension': [0, { extensions: ['.jsx'] }],
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
     'react/require-render-return': 2,
@@ -157,7 +157,7 @@ module.exports = {
     'react/self-closing-comp': 2,
     // Enforce spaces before the closing bracket of self-closing JSX elements
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-    'react/jsx-space-before-closing': [ 2, 'always' ],
+    'react/jsx-space-before-closing': [2, 'always'],
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': [
@@ -190,15 +190,15 @@ module.exports = {
     'react/jsx-first-prop-new-line': 0,
     // enforce spacing around jsx equals signs
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-    'react/jsx-equals-spacing': [ 2, 'never' ],
+    'react/jsx-equals-spacing': [2, 'never'],
     // enforce JSX indentation
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-    'react/jsx-indent': [ 2, 2 ],
+    'react/jsx-indent': [2, 2],
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: [ '.js', '.jsx', '.json' ],
+        extensions: ['.js', '.jsx', '.json'],
       },
     },
     react: {

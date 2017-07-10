@@ -43,8 +43,8 @@ module.exports = {
     'no-empty-function': [
       2,
       {
-        allow: ['arrowFunctions', 'functions', 'methods']
-      }
+        allow: ['arrowFunctions', 'functions', 'methods'],
+      },
     ],
     // disallow empty destructuring patterns
     // http://eslint.org/docs/rules/no-empty-pattern
@@ -86,8 +86,8 @@ module.exports = {
         ignore: [],
         ignoreArrayIndexes: true,
         enforceConst: true,
-        detectObjects: false
-      }
+        detectObjects: false,
+      },
     ],
     // disallow use of multiple spaces
     'no-multi-spaces': [
@@ -96,9 +96,9 @@ module.exports = {
         exceptions: {
           VariableDeclarator: true,
           ImportDeclaration: true,
-          ConditionalExpressions: true
-        }
-      }
+          ConditionalExpressions: true,
+        },
+      },
     ],
     // disallow use of multiline strings
     'no-multi-str': 2,
@@ -133,7 +133,7 @@ module.exports = {
       'DebuggerStatement',
       'ForInStatement',
       'LabeledStatement',
-      'WithStatement'
+      'WithStatement',
     ],
     // disallow use of assignment in return statement
     'no-return-assign': 2,
@@ -169,7 +169,7 @@ module.exports = {
     // disallow usage of configurable warning terms in comments: e.g. todo
     'no-warning-comments': [
       2,
-      { terms: ['todo', 'fixme'], location: 'anywhere' }
+      { terms: ['todo', 'fixme'], location: 'anywhere' },
     ],
     // disallow use of the with statement
     'no-with': 2,
@@ -181,6 +181,6 @@ module.exports = {
     // http://eslint.org/docs/rules/wrap-iife.html
     'wrap-iife': [2, 'outside'],
     // require or disallow Yoda conditions
-    yoda: 2
-  }
+    yoda: 2,
+  },
 };

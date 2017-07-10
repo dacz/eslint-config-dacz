@@ -1,9 +1,9 @@
 module.exports = {
   rules: {
     // disallow assignment in conditional expressions
-    'no-cond-assign': [ 2, 'always' ],
+    'no-cond-assign': [2, 'always'],
     // disallow use of console
-    'no-console': [ 1, { allow: [ 'warn', 'error' ] } ],
+    'no-console': [1, { allow: ['warn', 'error'] }],
     // disallow use of constant expressions in conditions
     'no-constant-condition': 1,
     // disallow control characters in regular expressions

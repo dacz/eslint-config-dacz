@@ -43,9 +43,9 @@ module.exports = {
         overrides: {
           return: { after: true },
           throw: { after: true },
-          case: { after: true }
-        }
-      }
+          case: { after: true },
+        },
+      },
     ],
     // enforces empty lines around comments
     'lines-around-comment': 0,
@@ -62,8 +62,8 @@ module.exports = {
         ignoreComments: true,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
-        ignoreRegExpLiterals: true
-      }
+        ignoreRegExpLiterals: true,
+      },
     ],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,
@@ -135,7 +135,7 @@ module.exports = {
     'quote-props': [
       2,
       'as-needed',
-      { keywords: false, unnecessary: true, numbers: false }
+      { keywords: false, unnecessary: true, numbers: false },
     ],
     // specify whether double or single quotes should be used
     quotes: [2, 'single', 'avoid-escape'],
@@ -168,6 +168,6 @@ module.exports = {
     //   'markers': ['=', '!']           // space here to support sprockets directives
     // }],
     // require regex literals to be wrapped in parentheses
-    'wrap-regex': 0
-  }
+    'wrap-regex': 0,
+  },
 };

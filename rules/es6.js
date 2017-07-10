@@ -2,14 +2,23 @@ module.exports = {
   rules: {
     // enforces no braces where they can be omitted
     // http://eslint.org/docs/rules/arrow-body-style
-    'arrow-body-style': [ 2, 'as-needed' ],
+    'arrow-body-style': [2, 'as-needed'],
     // require parens in arrow function arguments
     'arrow-parens': 0,
     // require space before/after arrow function's arrow
     // http://eslint.org/docs/rules/arrow-spacing
-    'arrow-spacing': [ 2, { before: true, after: true } ],
+    'arrow-spacing': [2, { before: true, after: true }],
     // require trailing commas in multiline object literals
-    'comma-dangle': [ 'error', 'always-multiline' ],
+    'comma-dangle': [
+      2,
+      {
+        arrays: 'always',
+        objects: 'always',
+        imports: 'always',
+        exports: 'always',
+        functions: 'ignore',
+      },
+    ],
     // verify super() callings in constructors
     'constructor-super': 0,
     // enforce the spacing around the * in generator functions
@@ -51,7 +60,7 @@ module.exports = {
     'no-useless-constructor': 2,
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
-    'object-shorthand': [ 2, 'always' ],
+    'object-shorthand': [2, 'always'],
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': [
       2,
@@ -82,6 +91,6 @@ module.exports = {
     'template-curly-spacing': 2,
     // enforce spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': [ 2, 'after' ],
+    'yield-star-spacing': [2, 'after'],
   },
 };
