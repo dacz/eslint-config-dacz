@@ -10,10 +10,8 @@ module.exports = {
     './rules/react.js',
     './rules/importplugin.js',
     'plugin:ava/recommended',
-    'prettier',
-    'prettier/react',
   ],
-  plugins: ['ava', 'compat', 'import', 'react', 'prettier'],
+  plugins: ['ava', 'compat', 'import', 'react'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 7,

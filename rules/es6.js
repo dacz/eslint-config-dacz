@@ -12,10 +12,10 @@ module.exports = {
     'comma-dangle': [
       2,
       {
-        arrays: 'always',
-        objects: 'always',
-        imports: 'always',
-        exports: 'always',
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
         functions: 'ignore',
       },
     ],
