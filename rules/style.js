@@ -120,7 +120,7 @@ module.exports = {
     // require padding inside curly braces
     'object-curly-spacing': [2, 'always'],
     // allow just one var statement per function
-    'one-var': ['error', { let: 'always' }],
+    'one-var': 0,
     // require a newline around variable declaration
     // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var-declaration-per-line': 0, //[2, 'always'],
