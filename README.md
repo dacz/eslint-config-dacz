@@ -1,5 +1,7 @@
 # eslint-config-dacz
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dacz/eslint-config-dacz.svg)](https://greenkeeper.io/)
+
 My eslint config (moving target, changes often).
 
 It's based on my personal preference.
