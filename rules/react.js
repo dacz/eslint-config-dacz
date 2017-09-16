@@ -159,7 +159,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
     // 'react/jsx-space-before-closing': [2, 'always'],
 
-    'react/jsx-tag-spacing:': [
+    'react/jsx-tag-spacing': [
       2,
       {
         closingSlash: 'never',
