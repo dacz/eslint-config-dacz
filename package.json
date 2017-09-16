@@ -15,19 +15,16 @@
   },
   "readme": "README.md",
   "directories": {},
-  "keywords": [
-    "eslint",
-    "prettier",
-    "codestyle"
-  ],
+  "keywords": ["eslint", "prettier", "codestyle"],
   "scripts": {
     "lint": "eslint .",
     "test": "npm run --silent lint",
-    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check"
+    "eslint-check":
+      "eslint --print-config index.js | eslint-config-prettier-check"
   },
   "dependencies": {
     "babel-eslint": "8.0.0",
-    "eslint": "^4.2.0",
+    "eslint": "4.6.1",
     "eslint-plugin-ava": "^4.2.0",
     "eslint-plugin-compat": "^1.0.2",
     "eslint-plugin-import": "^2.2.0",
