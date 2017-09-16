@@ -1,5 +1,5 @@
 {
-  "version": "0.13.1",
+  "version": "0.13.2",
   "name": "eslint-config-dacz",
   "description": "Shareable eslint config for dacz",
   "author": "David Cizek <david@origamica.com> (https://twitter.com/dadc)",
@@ -15,12 +15,15 @@
   },
   "readme": "README.md",
   "directories": {},
-  "keywords": ["eslint", "prettier", "codestyle"],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "codestyle"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "npm run --silent lint",
-    "eslint-check":
-      "eslint --print-config index.js | eslint-config-prettier-check"
+    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check"
   },
   "dependencies": {
     "babel-eslint": "8.0.0",
