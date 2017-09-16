@@ -6,8 +6,17 @@ It's based on my personal preference.
 
 ## Usage
 
-1. `npm install --save-dev eslint-config-dacz eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint`
+1. `npm install --save-dev eslint-config-dacz eslint`
 2. add `"extends": "dacz"` to your .eslintrc.js
+
+This is my `eslintrc.js`:
+
+```
+module.exports = {
+  extends: 'dacz',
+  rules: {},
+};
+```
 
 ## Notes
 
