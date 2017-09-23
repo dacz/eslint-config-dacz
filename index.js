@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['ava', 'compat', 'import', 'react'],
   extends: [
     './rules/best-practices.js',
     './rules/errors.js',
@@ -11,7 +12,6 @@ module.exports = {
     './rules/importplugin.js',
     'plugin:ava/recommended',
   ],
-  plugins: ['ava', 'compat', 'import', 'react'],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 7,
