@@ -26,10 +26,10 @@
     "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check"
   },
   "dependencies": {
-    "babel-eslint": "8.0.0",
+    "babel-eslint": "8.0.1",
     "eslint": "^4.7.2",
     "eslint-plugin-ava": "^4.2.2",
-    "eslint-plugin-compat": "^1.0.2",
+    "eslint-plugin-compat": "^2.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^7.1.0"
   },

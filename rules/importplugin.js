@@ -10,6 +10,7 @@ module.exports = {
         devDependencies: [
           '**/test-*.js',
           '**/*.test.js',
+          '**/*.test.serial.js',
           '**/*.spec.js',
           'tests/**/*',
           'webpack*',
