@@ -39,7 +39,8 @@ module.exports = {
     'no-dupe-class-members': 2,
     // disallow importing from the same path more than once
     // http://eslint.org/docs/rules/no-duplicate-imports
-    'no-duplicate-imports': 2,
+    // off because using flow
+    'no-duplicate-imports': 0,
     // disallow symbol constructor
     // http://eslint.org/docs/rules/no-new-symbol
     'no-new-symbol': 2,

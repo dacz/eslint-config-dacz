@@ -4,6 +4,7 @@ module.exports = {
     'import/default': 2,
     'import/no-deprecated': 1,
     'import/export': 2,
+    'import/no-duplicates': 2,
     'import/no-extraneous-dependencies': [
       2,
       {
