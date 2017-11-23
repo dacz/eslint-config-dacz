@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['ava', 'compat', 'import', 'react'],
+  plugins: ['ava', 'compat', 'import', 'react', 'flowtype'],
   extends: [
     './rules/best-practices.js',
     './rules/errors.js',
@@ -9,8 +9,10 @@ module.exports = {
     './rules/variables.js',
     './rules/es6.js',
     './rules/react.js',
+    './rules/compat.js',
     './rules/importplugin.js',
     'plugin:ava/recommended',
+    'plugin:flowtype/recommended',
   ],
   parser: 'babel-eslint',
   parserOptions: {
@@ -18,8 +20,6 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
-      generators: false,
-      objectLiteralDuplicateProperties: false,
     },
   },
   env: {

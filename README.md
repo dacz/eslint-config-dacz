@@ -1,8 +1,9 @@
 # eslint-config-dacz
 
+For node project use [`eslint-config-dacz-node`](https://github.com/dacz/eslint-config-dacz-node)
+
 [![current version](https://img.shields.io/npm/v/eslint-config-dacz.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-dacz)
 [![travis.ci](https://img.shields.io/travis/dacz/eslint-config-dacz.svg?style=flat-square)](https://travis-ci.org/dacz/eslint-config-dacz)
-[![Greenkeeper badge](https://badges.greenkeeper.io/dacz/apollo-bridge-link.svg)](https://greenkeeper.io/)
 [![license](https://img.shields.io/github/license/dacz/eslint-config-dacz.svg)](https://github.com/dacz/eslint-config-dacz/blob/master/LICENSE)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/dacz/eslint-config-dacz.svg)](https://greenkeeper.io/)
@@ -26,6 +27,8 @@ module.exports = {
 ```
 
 ## Notes
+
+For node project use [`eslint-config-dacz-node`](https://github.com/dacz/eslint-config-dacz-node)
 
 I like immutability and simplicity so I add/remove rules to enforce it.
 
