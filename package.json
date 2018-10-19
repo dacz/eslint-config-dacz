@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "3.1.0",
   "name": "eslint-config-dacz",
   "description": "Shareable eslint config for dacz",
   "author": "David Cizek <david@origamica.com> (https://twitter.com/dadc)",
@@ -21,34 +21,14 @@
     "codestyle"
   ],
   "scripts": {
-    "cm": "git-cz",
-    "cm:retry": "git-cz --retry",
     "lint": "eslint .",
-    "test": "npm run --silent lint",
-    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "test": "npm run --silent lint"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-plugin-ava": "^4.4.0",
-    "eslint-plugin-flowtype": "^2.41.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-react": "^7.5.1"
   },
-  "devDependencies": {
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.4.0",
-    "prettier": "^1.10.2",
-    "semantic-release": "^12.2.2",
-    "travis-deploy-once": "^4.3.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  "devDependencies": {}
 }

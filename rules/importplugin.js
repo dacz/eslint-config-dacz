@@ -17,6 +17,7 @@ module.exports = {
           'webpack*',
           '**/webpack*',
           '**/webpack*',
+          'scripts/**/*'
         ],
         optionalDependencies: false,
       },
