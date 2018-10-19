@@ -8,7 +8,7 @@ module.exports = {
     // treat var statements as if they were block scoped
     'block-scoped-var': 2,
     // specify the maximum cyclomatic complexity allowed in a program
-    complexity: [1, 10],
+    complexity: 0,
     // require return statements to either always or never specify values
     'consistent-return': 2,
     // specify curly brace conventions for all control statements
@@ -168,7 +168,7 @@ module.exports = {
     'no-void': 0,
     // disallow usage of configurable warning terms in comments: e.g. todo
     'no-warning-comments': [
-      2,
+      1,
       { terms: ['todo', 'fixme'], location: 'anywhere' },
     ],
     // disallow use of the with statement

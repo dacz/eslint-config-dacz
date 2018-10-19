@@ -28,6 +28,6 @@ module.exports = {
     // 'no-unused-vars': [2, { 'vars': 'local', 'args': 'after-used' }],
     'no-unused-vars': [ 2, { argsIgnorePattern: '^_', args: 'after-used' } ],
     // disallow use of variables before they are defined
-    'no-use-before-define': 2,
+    'no-use-before-define': 1,
   },
 };

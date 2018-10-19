@@ -98,7 +98,7 @@ module.exports = {
     // http://eslint.org/docs/rules/no-negated-condition
     'no-negated-condition': 0,
     // disallow nested ternary expressions
-    'no-nested-ternary': 2,
+    'no-nested-ternary': 0,
     // disallow use of the Object constructor
     'no-new-object': 2,
     // disallow space between function identifier and application
