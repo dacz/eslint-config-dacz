@@ -1,5 +1,5 @@
 {
-  "plugins": ["react"],
+  "plugins": ["react", "react-hooks"],
   "extends": [
     "./rules/best-practices.js",
     "./rules/errors.js",
@@ -7,7 +7,8 @@
     "./rules/style.js",
     "./rules/variables.js",
     "./rules/es6.js",
-    "./rules/react.js"
+    "./rules/react.js",
+    "./rules/react-hooks.js"
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
